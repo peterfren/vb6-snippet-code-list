@@ -1,0 +1,12 @@
+
+connect ADO to this database file
+
+Database Modification Procedure
+- Save
+- Delete
+- Add
+- Cancel
+
+Database Traversal Procedure
+- Previous
+- Next
