@@ -1,4 +1,4 @@
-# vb6-source-code-list
+# vb6-snippet-code-list
 
 ## Data Type
 Array
