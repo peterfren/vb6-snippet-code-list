@@ -1,0 +1,17 @@
+Private Sub Command1_Click()
+' set MaxLength property to 3 characters
+Text1.MaxLength = 3
+
+' display only character based on MaxLength property
+Text1.Text = Left(Text1.Text, Text1.MaxLength)
+
+End Sub
+
+Private Sub Command2_Click()
+' reset max length of characters
+Text1.MaxLength = 65535
+
+' display Text1 on Textbox
+Text1.Text = "Text1"
+
+End Sub
