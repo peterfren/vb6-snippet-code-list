@@ -37,8 +37,4 @@ Debug.Print secondNumber ^ firstNumber
 ' result is 0
 Debug.Print secondNumber Mod firstNumber
 
-
-Debug.Print firstNumber / secondNumber
-
-
 End Sub
