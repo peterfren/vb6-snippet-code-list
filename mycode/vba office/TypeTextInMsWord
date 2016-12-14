@@ -1,5 +1,7 @@
-'-- vba or macro ms word
+' vba or macro ms word
+' refer to microsoft.com
 Sub TypeTextInMsWord()
     Selection.TypeText "This is a hello world in Microsoft Word document"
+    ' insert enter
     Selection.TypeParagraph
 End Sub
