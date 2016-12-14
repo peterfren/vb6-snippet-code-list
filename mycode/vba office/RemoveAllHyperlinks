@@ -1,0 +1,15 @@
+Sub RemoveAllHyperlinks()
+' -----------------------------------------------
+' Remove all hyperlinks from the ActiveDocument
+' Format text back to black without underline
+' modified from fmsinc
+' -----------------------------------------------
+	With ThisDocument
+		' Loop while there are hyperlinks afoot!
+		While .Hyperlinks.Count > 0
+			.Hyperlinks(1).Range.Underline = wdUnderlineNone
+			.Hyperlinks(1).Range.Font.ColorIndex = wdBlack
+			.Hyperlinks(1).Delete
+		Wend
+	End With
+End Sub
