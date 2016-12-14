@@ -4,6 +4,7 @@ Sub RemoveAllHyperlinks()
 ' Format text back to black without underline
 ' modified from fmsinc
 ' -----------------------------------------------
+	' You can change to ActiveDocument
 	With ThisDocument
 		' Loop while there are hyperlinks afoot!
 		While .Hyperlinks.Count > 0
