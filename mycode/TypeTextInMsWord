@@ -1,0 +1,5 @@
+'-- vba or macro ms word
+Sub TypeTextInMsWord()
+    Selection.TypeText "This is a hello world in Microsoft Word document"
+    Selection.TypeParagraph
+End Sub
